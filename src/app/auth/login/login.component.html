@@ -1,0 +1,32 @@
+<div class="background-overlay"></div>
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <img class="logo" src="logo.png" alt="">
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4 login-container"> 
+            <h1 class="text-center mt-5 pb-5">Login</h1>
+            <form class="mt-4">
+                <div class="mb-5 mt-5">
+                    <input class="form-control" type="email" name="customer-email" id="email" placeholder="Email" required style="border-radius: 20px;">
+                </div>
+                <div class="mb-3">
+                    <input class="form-control" type="password" name="password" id="password" placeholder="Password" required style="border-radius: 20px;">
+                </div>
+                <div class="text-center pb-5 pt-4">
+                    <button type="submit" class="btn btn-primary w-100">Login</button> <!-- تغيير w-25 إلى w-100 لجعل الزر يمتد بالكامل -->
+                    <div class="d-flex justify-content-center pt-3 pb-3">
+                        <hr class="w-75">
+                    </div>
+                    <a style="text-decoration: none;" routerLink="/register">
+                        <p style="font-size: 20px;">Create account</p>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

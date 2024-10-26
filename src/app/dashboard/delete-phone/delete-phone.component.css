@@ -1,0 +1,82 @@
+
+.contact-section {
+    background: url('./btt.jpg') top left repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.overview-bgi:before {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 1;
+}
+
+.cm-logo {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.form-content {
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+}
+
+.form-control-sm {
+    font-size: 0.875rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+@media (max-width: 576px) {
+    .cm-logo {
+        width: 150px;
+        margin-top: 20px;
+    }
+    .form-content {
+        width: 90%;
+    }
+
+    .contact-section{
+        height: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .form-content {
+        width: 80%;
+    }
+}
+
+@media (min-width: 768px) {
+    .form-content {
+        width: 400px;
+    }
+}

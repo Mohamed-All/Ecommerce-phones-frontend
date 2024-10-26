@@ -1,0 +1,12 @@
+.btty{
+    padding: 10px 45px;
+    color: white;
+    background-color: black;
+    font-size: 18px; 
+    border-radius: 60px;
+    transition:  background-color  0.5s;
+}
+.btty:hover{
+    background-color: darkred;
+    color: white;
+}

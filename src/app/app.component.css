@@ -1,0 +1,56 @@
+.textt a {
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+    transition: color 0.6s;
+}
+
+.textt a:hover {
+    color: #EB0028;
+}
+
+.navbar {
+    background-color: #F8F8F9 !important;
+    position: fixed; /* اجعل الناف بار ثابتة */
+    top: 0; /* تأكد من أنها في أعلى الصفحة */
+    left: 0; /* تأكد من أنها تبدأ من اليسار */
+    width: 100%; /* اجعل عرض الناف بار 100% */
+    z-index: 1000; /* اجعلها فوق العناصر الأخرى */
+}
+
+.textt a i {
+    font-size: 23px;
+}
+
+a img {
+    width: 40px; /* حجم الصورة يمكن تعديله حسب الحاجة */
+    height: auto;
+    border-radius: 50%;
+}
+
+/* تحسين استجابة القائمة */
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar .nav-item {
+        padding: 0.5rem 0; /* تعديل padding لأزرار القائمة */
+    }
+}
+
+/* إضافة مسافة في الأعلى لتجنب تغطية المحتوى */
+body {
+    padding-top: 80px; /* اجعلها مساوية لارتفاع الناف بار */
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar .nav-item {
+        padding: 0.5rem 0;
+    }
+    .navbar-brand img {
+        width: 30px; /* تقليل حجم الشعار على الشاشات الصغيرة */
+    }
+}

@@ -1,0 +1,36 @@
+.login-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    margin-top: 50px;
+    width: 70%; /* تغيير العرض إلى نسبة مئوية */
+    max-width: 250px; /* تحديد أقصى عرض */
+    height: auto;
+    border-radius: 50%;
+}
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #2A4182, #9081F3, #806BE2);
+    z-index: -1; 
+}
+
+/* تحسين عرض النموذج على الشاشات الصغيرة */
+@media (max-width: 576px) {
+    .login-container {
+        padding: 15px; /* تقليل الحشوة على الشاشات الصغيرة */
+    }
+
+    .logo {
+        margin-top: 30px; /* تقليل المسافة العليا */
+    }
+}

@@ -1,0 +1,48 @@
+<div style="background: linear-gradient(to right, #2A4182, #9081F3, #806BE2); padding-bottom: 10px;">
+    <div class="container">
+        <div class="row d-flex justify-content-center py-3 mt-5">
+            <img src="logo.png" alt="logo" class="img-fluid rounded-circle mt-3 " style="max-width: 200px;">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="text-center" style="margin-top: 80px;">
+            <h1 class="h1-cart">Your cart</h1>
+            <p class="p-chart">Continue Shopping</p>
+        </div>
+
+        <div class="d-flex justify-content-between pt-5 flex-wrap">
+            <h4 class="px-5">Product</h4>
+            <h4 class="mx-2">Quantity</h4>
+            <h4>Total</h4>
+        </div>
+        <hr class="mt-4">
+
+        <div class="cart-item d-flex justify-content-between align-items-center pt-3 flex-wrap">
+            <div class="d-flex align-items-center">
+                <img src="iPhone-15-Pro-Max-2.webp" alt="" class="img-fluid" style="max-width: 100px;">
+                <div class="d-flex flex-column mx-3">
+                    <h5>Lonirye</h5>
+                    <h3>XR</h3>
+                    <p>5456<br>storage<br>color<br>ram</p>
+                </div>
+            </div>
+            <div class="quantity-wrapper d-flex align-items-center">
+                <button class="quantity-button btn btn-outline-secondary" (click)="changeQuantity(-1)">-</button>
+                <input type="number" class="quantity-input mx-2" [(ngModel)]="quantity" min="1" />
+                <button class="quantity-button btn btn-outline-secondary" (click)="changeQuantity(1)">+</button>
+            </div>
+            <div>
+                <h5>$935.03</h5>
+            </div>
+        </div>
+        <hr>
+
+        <div class="text-center mt-5">
+            <button class="btn btn-dark tty" routerLink="/checkout">Check out</button>
+        </div>
+    </div>
+</div>
+

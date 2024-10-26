@@ -1,0 +1,34 @@
+.social-icons a {
+    color: #333; /* لون الأيقونات */
+    transition: color 0.3s, transform 0.3s; /* تأثير التغيير في اللون والحجم */
+    font-size: 2rem; /* حجم الأيقونات */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* لون الأيقونات عند التحويم */
+    transform: scale(1.2); /* تكبير الأيقونات عند التحويم */
+}
+.layout{
+    background: linear-gradient(to right, #2A4182, #9081F3, #806BE2)
+
+}
+
+.social-icons a {
+    color: #333; /* لون الأيقونات */
+    transition: color 0.3s, transform 0.3s; /* تأثير التحويل */
+    font-size: 2rem; /* حجم الأيقونات */
+}
+
+.social-icons a:hover {
+    color: red; /* لون الأيقونات عند التحويم */
+    transform: scale(1.2); /* تكبير الأيقونات عند التحويم */
+}
+
+h1 {
+    font-size: 70px; /* حجم عنوان الصفحة */
+    font-weight: 700; /* وزن الخط */
+}
+
+h4 {
+    margin-top: 20px; /* مسافة فوق العنوان الثاني */
+}

@@ -1,0 +1,15 @@
+.page-not-found-container {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.display-1 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+.lead {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+.btn {
+    font-size: 1rem;
+}
